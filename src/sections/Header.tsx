@@ -69,7 +69,7 @@ export default function Header() {
         </Modal>
       )}
       <StyledHeader>
-        <div style={{ display: 'flex', gap: '20px', alignItems: 'center' }}>
+        <div style={{ display: 'flex', gap: '40px', alignItems: 'center' }}>
           <Logo to="/">
             <img alt="Solflare logo" src="/logo.png" />
           </Logo>
