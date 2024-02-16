@@ -22,7 +22,7 @@ const Buttons = styled.div`
   }
 
   & > button {
-    border: none;
+    border: 1px solid #b29600;
     width: 100%;
     border-radius: 10px;
     padding: 10px;
