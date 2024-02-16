@@ -59,7 +59,8 @@ const Welcome = styled.div`
   }
 
   background: linear-gradient(-45deg, #600667, #391c27, #451b37, #750e75, #cc04cc);
-  background-size: 300% 300%;
+  background-image: url('/banner-5.jpeg');
+  background-size: 70% 100%;
   animation: welcome-fade-in .5s ease, backgroundGradient 30s ease infinite;
   border-radius: 10px;
   position: relative;
