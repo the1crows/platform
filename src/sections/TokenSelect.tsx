@@ -46,7 +46,7 @@ export default function TokenSelect() {
 
   return (
     <div style={{ position: 'relative' }}>
-      <GambaUi.Button onClick={click}>
+      <button className='styledButton' onClick={click}>
         {selectedToken && (
           <StyledToken>
             <TokenImage src={selectedToken.image} />
