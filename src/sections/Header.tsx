@@ -38,12 +38,27 @@ const StyledHeader = styled.div`
   backdrop-filter: blur(20px);
 `
 
+ @media (min-width: 561px) {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+`
+
 const Logo = styled(NavLink)`
   height: 35px;
-  margin: 0 10px;
+  margin: auto;
+
   & > img {
     height: 100%;
   }
+`
+
+const Row = styled.div`
+  display: flex;
+  gap: 6px;
+  align-items: center;
+  margin: auto;
 `
 
 export default function Header() {
