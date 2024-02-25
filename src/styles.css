@@ -1,3 +1,8 @@
+@font-face {
+  font-family: 'Azonix';
+  src: url('./fonts/Azonix.otf') format('opentype');
+}
+
 * {
   box-sizing: border-box;
 }
@@ -5,8 +10,8 @@
 :root {
   --background-color: #0b0b0e;
   --text-color: #ffffff;
-
-  --gamba-ui-border-radius: 10px;
+  --padding: 5px !important;
+  --gamba-ui-border-radius: 20px;
 
   --gamba-ui-button-default-background: #0e0e16;
   --gamba-ui-button-default-background-hover: #11111d;
@@ -58,4 +63,18 @@ body::-webkit-scrollbar-thumb {
   font-weight: normal;
   background: rgb(55, 57, 82);
   border-radius: 10px;
+}
+
+.styledButton {
+  --background-color: var(--gamba-ui-button-default-background);
+  --background-color-hover: var(--gamba-ui-button-default-background);
+  --padding: 5px;
+  background: var(--background-color);
+  color: white;
+  border: none;
+  border-radius: var(--gamba-ui-border-radius);
+  padding: var(--padding);
+  cursor: pointer;
+  text-align: center;
+  align-items: center;
 }
